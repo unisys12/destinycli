@@ -43,7 +43,7 @@ Magazine        - 6
 English will be the default return language, but the API has 12 other supported languages. To support these, we just need to add a flag so the user can select their language.
 
 ```shell
-$~ destinycli -i Lorentz Driver --es-mx
+$~ destinycli -i Lorentz Driver --lang=es-mx
 ```
 
 We might even be able to add support for a local config so that the client would not have to do this. Maybe read a local OS level variable that could give use this info. Again, part of the reason I'm doing this is to work through these sorta problems and solve them. That command could look something like:
